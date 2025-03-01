@@ -1,0 +1,25 @@
+/* 
+  Custom styles for Aman’s site on top of Bootstrap's defaults.
+  Keep it minimal to let Bootstrap handle most layout/styling.
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Example: highlight active navbar link with a blue underline */
+  .nav-link.active {
+    text-decoration: underline;
+    color: #0d6efd !important; /* match Bootstrap primary color */
+  }
+  
+  /* Optional: Adjust card text or spacing if needed */
+  .card-text {
+    font-size: 0.95rem;
+  }
+  
+  /* Footer color adjustments, if you like */
+  footer {
+    background-color: #f8f9fa; /* same as bg-light in Bootstrap */
+  }
+  
