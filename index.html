@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Aman the DJ/Producer - Official Website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMAN - Official DJ/Producer Website</title>
+
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation (Bootstrap Navbar) -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">AMAN</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+<!-- Hero / Intro Section with Image and Text -->
+<section 
+  class="py-5" 
+  style="background-color: #34b3a0;">
+  <div class="container">
+    <!-- Add "g-5" (or g-4) here for extra gap between columns -->
+    <div class="row align-items-center g-5">
+      <!-- Left Column: Image -->
+      <div class="col-md-5 text-center text-md-start mb-4 mb-md-0">
+        <img 
+            src="assets/aman.jpeg" 
+            alt="Portrait of Aman" 
+            class="img-fluid rounded"
+            style="max-width: 400px; height: auto;"
+            />
+
+      </div>
+
+      <!-- Right Column: Text and Button -->
+      <div class="col-md-7 text-white">
+        <h1 class="display-4 fw-bold">
+          AMAN
+          <small class="d-block fs-5 fw-light">(Amanuel Dawit)</small>
+        </h1>
+        <p class="lead my-4">
+          Discover the musical journey of Amanuel Dawit (AMAN), 
+          a rising Ethiopian DJ/Producer blending traditional rhythms 
+          with electronic beats.
+        </p>
+        <a href="about.html" class="btn btn-light">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Hero Section -->
+
+
+<!-- Additional Home Page Content (Optional) -->
+<section 
+  class="py-5"
+  style="
+    background: linear-gradient(to right, #113d36, #269988);
+    color: #ffffff;
+  "
+>
+  <div class="container">
+    <h2 class="mb-4">Latest Highlights</h2>
+    <p>
+      Stay updated on Aman's newest releases, concerts, and insights!
+    </p>
+
+    <!-- News Highlights with Images -->
+    <div class="row mt-4">
+      <!-- News Card 1 - Explore His Music -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+            <!-- Card Image -->
+            <img 
+                src="assets/exploremusic.jpeg"
+                class="card-img-top"
+                alt="Explore Aman's Music Image"
+            />
+            <!-- Card Body -->
+            <div class="card-body">
+                <h5 class="card-title">Explore His Music</h5>
+                <p class="card-text">
+                Dive into Aman's discography and experience how he blends Ethiopian rhythms 
+                with modern electronic beats in his captivating tracks.
+                </p>
+                <a href="music.html" class="btn btn-primary">
+                Explore Now
+                </a>
+            </div>
+            </div>
+        </div>
+  
+
+      <!-- News Card 2 - Latest Interviews -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+        <img 
+            src="assets/interview.jpeg"
+            class="card-img-top"
+            alt="Latest Interviews Image"
+        />
+        <div class="card-body">
+            <h5 class="card-title">Latest Interviews</h5>
+            <p class="card-text">
+            Watch Aman’s latest interviews where he discusses his musical journey, creative process, and future projects.
+            </p>
+            <a href="news.html" class="btn btn-primary">
+            Watch & Read More
+            </a>
+        </div>
+        </div>
+    </div>
+  
+
+      <!-- News Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img 
+            src="assets/studio1.jpeg"
+            class="card-img-top"
+            alt="Studio Sessions Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Studio Sessions</h5>
+            <p class="card-text">
+              Go behind the scenes with Aman as he creates new fusion 
+              tracks for his upcoming album.
+            </p>
+            <a href="about.html" class="btn btn-primary">
+              Full Story
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End of News Cards -->
+    </div>
+    <!-- End of News Highlights -->
+  </div>
+</section>
+
+  
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-light">
+    <p class="mb-0">&copy; 2025 Aman Official. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS (CDN) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
